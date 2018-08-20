@@ -7,7 +7,23 @@
         <link href="css/normalize.css" type="text/css" rel="stylesheet">
         <link href="css/style.css" type="text/css" rel="stylesheet">
     </head>
-    <body>
+    <body>        
+        <header class="nav container_12">
+            <div class="title grid_6">
+                <a href="#" alt="Go To Home">
+                    <img src="images/logo.jpg" class="logo" alt="image">
+                </a>
+            </div>
+            <div class="nav grid_6">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">faqs</a></li>
+                    <li><a href="#">contacts</a></li>
+                </ul>
+            </div>
+        </header> <!--close container_12-->
         <div class="top-bar container_12">
             <div class="grid_4">
                 <a href="#">www.demolink.org</a>
@@ -21,27 +37,11 @@
                 </ul>
             </div>
         </div> <!--close container_12-->
-        <div class="nav container_12">
-            <div class="title grid_6">
-                <a href="#" alt="Go To Home">
-                    <img src="images/logo.jpg" alt="image">
-                </a>
-            </div>
-            <div class="nav grid_6">
-                <ul>
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">services</a></li>
-                    <li><a href="#">faqs</a></li>
-                    <li><a href="#">contacts</a></li>
-                </ul>
-            </div>
-        </div> <!--close container_12-->
         <div class="container_12">
             <div class="grid_12">
                 <img src="images/hero.jpg" alt="image">
             </div>
-        <div class="container_12">
+        <div class="colophon container_12">
             <div class="grid--inner grid_4">
                     <h2>smart</h2>
                 <img src="images/smart.jpg" alt="image">
@@ -61,7 +61,7 @@
                 <a href="#">More</a>
             </div>
         </div> <!--close container_12-->
-        <div class="footer container_12">
+        <footer class="footer container_12">
             <div class="col1of3 grid_4">
                 <h2>Services</h2> 
                 <ul>
@@ -88,13 +88,35 @@
             </div>
             <div class="col3of3 grid_4">
                 <h2>News</h2>
-                <ul>
-                        <li><a href="#"><img src="http://via.placeholder.com/50x50"><h3>Lorem ipsum dolor sit.</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam assumenda architecto voluptatum fugiat hic eius reiciendis aut veritatis laborum sint.</p></li>
-                        <li><a href="#"><img src="http://via.placeholder.com/50x50"><h3>Lorem ipsum dolor sit.</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam assumenda architecto voluptatum fugiat hic eius reiciendis aut veritatis laborum sint.</p></li> 
+                <ul class="news">
+                        <li><a href="#">
+                            <span class="date date--one">
+                                <span class="day">21</span>
+                                <span class="month">Nov</span>
+                            </span>
+                            <h3>Lorem ipsum dolor sit.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam assumenda architecto voluptatum fugiat hic eius reiciendis aut veritatis laborum sint.</p></a>
+                        </li>
+                        <li><a href="#">
+                            <span class="date date--two">
+                                <span class="day">9</span>
+                                <span class="month">Nov</span>
+                            </span>
+                            <h3>Lorem ipsum dolor sit.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam assumenda architecto voluptatum fugiat hic eius reiciendis aut veritatis laborum sint.</p></a>
+                        </li> 
+                        <li><a href="#">
+                            <span class="date date--three">
+                                <span class="day">17</span>
+                                    <span class="month">Nov</span>
+                                </span>
+                                <h3>Lorem ipsum dolor sit.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam assumenda architecto voluptatum fugiat hic eius reiciendis aut veritatis laborum sint.</p></a>
+                        </li>
                 </ul>
                 <a href="#"class="button">More</a>
             </div>
-        </div><!--close container_12-->
+        </footer><!--close container_12-->
         <div class="bottom container_12">
             <div class="grid_12">
                 <a href="#">Detroix &copy; 2012 PRIVACY POLICY</a>
